@@ -7,13 +7,13 @@ It is written to gracefully handle wrong input, so that a textblock can be parse
 It outputs an array of operators and text blocks.
 
 By default it is configured to use the following operators.
-    - "->" 
-    - ":"
+- "->"
+- ":"
 
 Text blocks are marked with these
-    - ''
-    - ""
-    - ()
+- ''
+- ""
+- ()
 
 # Examples
 
