@@ -1,4 +1,4 @@
-Tokenizer = require("../client/assets/script/tokenizer");
+Tokenizer = require("../src/tokenizer");
 
 exports.testReturnedStructure = function(test) {
   var result = Tokenizer.tokenize("Mensch -> Hund: Hat");

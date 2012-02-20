@@ -11,7 +11,6 @@ By default it is configured to use the following operators.
 - ->
 - :
 
-
 Text blocks are marked with these
 
 - ''
@@ -24,12 +23,10 @@ With the default configuration the following string
 
 > "Mensch -> Hund: Hat"
 
-will be converted to:
-
-    [ { type: 'Block', text: 'Mensch', wrap: '' },
-      { type: 'Operator', text: '->' },
-      { type: 'Block', text: 'Hund', wrap: '' },
-      { type: 'Operator', text: ':' },
-      { type: 'Block', text: 'Hat', wrap: '' },
-      '\n' ]
-
+will be converted to an array with the following objects:
+    
+    Block: Text
+    Operator: ->
+    Block: Hund 
+    Operator: :
+    Block Hat
