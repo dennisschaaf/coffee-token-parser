@@ -25,7 +25,7 @@ With the default configuration the following string
 
 will be converted to an array with the following objects:
     
-    Block: Text
+    Block: Mensch
     Operator: ->
     Block: Hund 
     Operator: :
